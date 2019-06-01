@@ -1,0 +1,47 @@
+$logosize:32px;
+html,body {
+    background: #333;
+    color:#ccc;
+    display: flex;
+    justify-content: center;
+    padding:50px 0;
+}
+
+.main-content {
+    min-width:600px;
+    display: flex;
+    >div {
+        margin:20px 0;
+    }
+    flex-direction: column;
+
+    .log {
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        .row {
+            display: flex;
+            a {
+                color:#fff;
+                display:block;
+                height:$logosize;
+                margin-left:5px;
+                font-size: 20px;
+                line-height: $logosize;
+            }
+            >div {
+                display: flex;
+                width:25%;
+            }
+
+            span.logo {
+                img {
+                    height:$logosize;
+                    width:$logosize;
+                }
+            }
+        }
+    }
+}
+
