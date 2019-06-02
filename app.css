@@ -13,6 +13,7 @@ html, body {
     margin: 20px 0; }
   .main-content .navigation {
     display: flex;
+    font-family: 'Ubuntu Mono';
     flex-direction: column; }
     .main-content .navigation .row {
       display: flex; }
