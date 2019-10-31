@@ -9,24 +9,47 @@ html, body {
   min-width: 600px;
   display: flex;
   flex-direction: column; }
-  .main-content > div {
-    margin: 20px 0; }
-  .main-content .navigation {
-    display: flex;
-    font-family: 'Ubuntu Mono';
-    flex-direction: column; }
-    .main-content .navigation .row {
-      display: flex; }
-      .main-content .navigation .row a {
-        color: #fff;
-        display: block;
-        height: 32px;
-        margin-left: 5px;
-        font-size: 20px;
-        line-height: 32px; }
-      .main-content .navigation .row > div {
-        display: flex;
-        width: 25%; }
-      .main-content .navigation .row span.logo img {
-        height: 32px;
-        width: 32px; }
+
+.main-content > div {
+  margin: 20px 0; }
+
+.main-content .log {
+  height: 200px;
+  width: 600px;
+  overflow: hidden;
+  position: relative; }
+
+.main-content .log img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform .3s; }
+
+.main-content .log img:hover {
+  transform: scale(1.4); }
+
+.main-content .navigation {
+  display: flex;
+  font-family: 'Ubuntu Mono';
+  flex-direction: column;
+  margin-left: 4rem; }
+
+.main-content .navigation .row {
+  display: flex; }
+
+.main-content .navigation .row a {
+  color: #fff;
+  display: block;
+  height: 32px;
+  margin-left: 5px;
+  font-size: 20px;
+  line-height: 32px; }
+
+.main-content .navigation .row > div {
+  display: flex;
+  width: 25%; }
+
+.main-content .navigation .row span.logo img {
+  height: 32px;
+  width: 32px; }

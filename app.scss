@@ -16,11 +16,26 @@ html,body {
     flex-direction: column;
 
     .log {
+        height: 200px;
+        width: 600px;
+        overflow: hidden;
+        position: relative;
+        img {
+            width: 100%;
+            position: absolute;
+            top:0;
+            left: 0;
+            transition: transform .3s;
+            &:hover {
+                transform: scale(1.4);
+            }
+        }
     }
     .navigation {
         display: flex;
         font-family: 'Ubuntu Mono';
         flex-direction: column;
+        margin-left: 4rem;
         .row {
             display: flex;
             a {
