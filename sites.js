@@ -2,6 +2,7 @@ var sites = [
     { logo:"vim.png", name:"vim配置",href:"https://rainboy.gitee.io/sample-vim-config/"},
     { logo:"slime.png", name:"slimeOJ",href:"http://moonoj.iok.la"},
     { logo:"rbook.ico", name:"R-Book",href:"https://rbook.slimeoj.online"},
+    { logo:"pcs.ico", name:"PCS",href:"https://pcs.slimeoj.online"},
     { logo:"dsa.ico", name:"DSA",href:"http://rainboy.coding.me/Data-Structure-Animation/"},
     { logo:"flow.png", name:"OLD-DSA",href:"http://dsa.slimeoj.online"},
     { logo:"snippets.ico", name:"rSnip",href:"https://github.com/Rainboylvx/rSnip"},
